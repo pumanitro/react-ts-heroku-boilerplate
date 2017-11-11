@@ -13,7 +13,7 @@
     "path": "^0.12.7",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
-    "react-scripts-ts": "2.8.0"
+    "react-scripts-ts": "^2.8.0"
   },
   "scripts": {
     "start-r": "react-scripts-ts start",
@@ -21,7 +21,7 @@
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "postinstall": "npm install -g create-react-app && npm run build && npm run start"
+    "postinstall": "npm run build && npm run start"
   },
   "devDependencies": {
     "@types/jest": "^21.1.6"
