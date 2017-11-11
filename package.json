@@ -23,6 +23,6 @@
     "postinstall": "npm install -g create-react-app && npm run build && npm run start"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.6",
+    "@types/jest": "^21.1.6"
   }
 }
