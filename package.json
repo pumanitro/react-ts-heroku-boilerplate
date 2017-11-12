@@ -22,7 +22,7 @@
     "start-r": "react-scripts-ts start",
     "start": "node server.js",
     "build": "react-scripts-ts build",
-    "compile-ts": "tsc server.ts",
+    "compile-ts": "tsc --p tsconfig.server.json",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "postinstall": "npm run compile-ts && npm run build"
